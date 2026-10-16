@@ -4,7 +4,7 @@ networks:
     driver: bridge
 services:
   mysql:
-    image: mysql-local:1.0.0
+    image: mysql:8.0
     build:
       context: .
       dockerfile: Dockerfile.mysql
